@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Variants, motion } from "framer-motion";
 import { Keyhole } from "@phosphor-icons/react";
 
-function lock() {
+function Lock() {
   const [open, setOpen] = useState(false);
 
   const variantsLock: Variants = {
@@ -45,4 +45,4 @@ function lock() {
   );
 }
 
-export default lock;
+export default Lock;
